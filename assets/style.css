@@ -1,3 +1,177 @@
+main {
+  max-width: 72ch;
+  padding: 2ch;
+  margin: auto;
+  font-family: "Roboto", Helvetica, Arial, Sans-serif;
+  word-wrap: break-word;
+  background-color: white;
+  line-height: 1.5;
+}
+
+a:visited {
+  color:blue
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-top:0;
+    margin-bottom:.2em;
+}
+
+.footer {
+  font-style: italic;
+  color: grey;
+  font-size: .9em;
+}
+
+body {
+}
+
+table {
+  margin-left: 7px
+}
+p {
+    margin-bottom: .2em;
+    line-height: 1.5;
+    margin-top: 0px;
+}
+
+.inline {
+  display: inline;
+}
+
+img {
+  max-width: 100%;
+}
+
+#editor {
+  width: 100%;
+  border: 1px solid #999999;
+  margin: 5px 0;
+  line-height: 1.4;
+  padding: 3px;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.textform {
+width: 100%;
+resize: vertical;
+}
+
+.impersonate {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.button {
+  background-color: white; /* Green */
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 2px 5px;
+  display: inline-block;
+  margin: 0px;
+  font-size: 1rem;
+}
+
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+.delete:hover {
+  background-color: red;
+  color: white;
+}
+
+.error {
+  color: red;
+}
+
+.warning {
+  color: #ffcc00 ;
+}
+
+.alert {
+  color: green;
+}
+
+.nav {
+  color: blue;
+}
+
+.user-admin-details {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+a {
+text-decoration: none;
+}
+
+pre {
+    line-height: 1.2;
+    font-size: 1rem;
+    overflow: auto;
+    word-wrap:normal;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+.indent-wrap {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+blockquote {
+  margin-left: .5em;
+  font-style: italic;
+  background: #f9f9f9;
+  border-left: .5em solid #ccc;
+  padding: .5em 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body, main { background: #1b222c; color: white; }
+  a { color: #21e6c1 }
+  a:visited { color: #21e6c1 }
+  input[type="text"], input[type="password"], textarea {
+    color: white;
+    background-color: #121212;
+  }
+  blockquote {
+    background-color: #121212;
+    border-left: .5em solid black;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px
+  }
+  input[type="text"], input[type="password"], textarea {
+    font-size: 1rem;
+  }
+
+  blockquote {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+hr.thin {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 .table{
 	border: 1px solid #eee;
 	table-layout: fixed;

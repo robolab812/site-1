@@ -15,6 +15,11 @@
   
   </head>
   <body>
+
+  <div class="header">
+{% if page.title %}{{ page.title | escape }}{% else %}}{{ site.title | escape }}{% endif %}
+  </div>
+
   <main>
     {{ content }}
   </main>

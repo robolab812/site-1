@@ -72,6 +72,11 @@ excerpt: Тяжела и неказиста жизнь простого робо
   - level 2 item
 - level 1 item
 
+Text that is not a **quote**
+
+> Text that is a quote
+> qwerty 1234567
+
 Some basic Git commands are:
 ```
 git status

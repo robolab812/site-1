@@ -192,6 +192,19 @@ table td {
   font-size: 30px;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: 1abc9c;
+  color: white;
+  text-align: center;
+}
+
+</style>
+
+
 pre {
     background: #f4f4f4;
     border: 1px solid #ddd;

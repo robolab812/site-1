@@ -106,13 +106,6 @@ a {
 text-decoration: none;
 }
 
-pre {
-    line-height: 1.2;
-    font-size: 1rem;
-    overflow: auto;
-    word-wrap:normal;
-}
-
 a:hover {
   text-decoration: underline;
 }
@@ -189,6 +182,14 @@ table th {
 table td {
 	border: 1px solid #dddddd;
 	padding: 5px;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
 }
 
 pre {

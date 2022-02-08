@@ -17,11 +17,7 @@ h1, h2, h3, h4, h5, h6{
     margin-bottom:.2em;
 }
 
-.footer {
-  font-style: italic;
-  color: grey;
-  font-size: .9em;
-}
+
 
 body {
 }
@@ -40,46 +36,12 @@ img {
   max-width: 100%;
 }
 
-#editor {
-  width: 100%;
-  border: 1px solid #999999;
-  margin: 5px 0;
-  line-height: 1.4;
-  padding: 3px;
-  font-size: 1rem;
-  resize: vertical;
-}
-
-.textform {
-width: 100%;
-resize: vertical;
-}
 
 .impersonate {
   font-style: italic;
   font-weight: bold;
 }
 
-.button {
-  background-color: white; /* Green */
-  border: 1px solid black;
-  text-decoration: none;
-  padding: 2px 5px;
-  display: inline-block;
-  margin: 0px;
-  font-size: 1rem;
-}
-
-
-.button:hover {
-  background-color: black;
-  color: white;
-}
-
-.delete:hover {
-  background-color: red;
-  color: white;
-}
 
 .error {
   color: red;
@@ -97,10 +59,6 @@ resize: vertical;
   color: blue;
 }
 
-.user-admin-details {
-  margin-left: 1em;
-  margin-bottom: 1em;
-}
 
 a {
 text-decoration: none;
@@ -193,9 +151,6 @@ table td {
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
   background-color: #1abc9c;
   color: white;

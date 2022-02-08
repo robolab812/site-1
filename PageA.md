@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: test
 lang: ru-RU
 title: Page A
 
@@ -13,4 +13,10 @@ def foo
   puts 'foo'
 end
 {% endhighlight %}
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
 

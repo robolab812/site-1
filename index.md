@@ -82,14 +82,14 @@ git status
 git add
 git commit
 ```
-{% highlight ruby %}
-```js
+{% highlight js %}
+
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
   dateformat.i18n = require('./lang/' + l)
   return true;
 }
-```
+
 {% endhighlight %}
 
 ### There's a horizontal rule below this.

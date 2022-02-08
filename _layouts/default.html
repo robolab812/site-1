@@ -17,8 +17,12 @@
   <body>
 
   <div class="header">
-{% if page.title %}{{ page.title | escape }}{% else %}}{{ site.title | escape }}{% endif %}
+	{% if page.title %}{{ page.title | escape }}{% else %}}{{ site.title | escape }}{% endif %}
   </div>
+<div class="navigation">
+  [__PageA__](PageA.md)
+  [__PageB__](PageB.md)
+</div>
 
   <main>
     {{ content }}

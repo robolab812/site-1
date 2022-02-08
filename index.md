@@ -120,3 +120,13 @@ end
 
 * * *
 
+```html
+<div class="language-js highlighter-rouge">
+ <div class="highlight">
+  <pre class="highlight"><code>
+   <span class="kd">let</span> <span class="nx">z</span> <span class="o">=</span> <span class="mi">26</span><span class="p">;</span>
+  </code></pre>
+ </div>
+</div>
+```
+

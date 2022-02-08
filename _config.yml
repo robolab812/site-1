@@ -1,5 +1,11 @@
+lang: ru-RU
+encoding: utf-8
 
+
+title: ТЕСТ тайтл
+
+
+permalink: pretty
+highlighter: rouge
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+input: GFM

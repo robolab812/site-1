@@ -102,6 +102,14 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
 
+```ruby
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+```
+
 ### There's a horizontal rule below this.
 
 * * *

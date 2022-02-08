@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: test
 lang: ru-RU
 title: Page A
 
